@@ -29,9 +29,6 @@ button:active {
     background-color: darkslategray;
     filter: blur(1px);
 }
-img{
-    border:3cm;
-}
 img:hover{
     transform: translateX(2px);
 }
