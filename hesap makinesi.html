@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title> işlemler</title>
+        <link rel="stylesheet" href="./style.css" type="text/css"/>
+    </head>
+    <body>
+        <img 
+            src="https://sites.google.com/site/mehmetkarakurtnet/_/rsrc/1472843463224/ilkoegretim-duezeyinde-doert-islemler/470_1.jpg"
+            style="align-items: center; width: 20%; display: flex;justify-content: center;flex-direction: column; padding-left: 35%; 
+            margin: 50px;padding-right: 30%;"
+        >
+        <button onclick="toplama ()">Toplama</button>
+        <button onclick="cikarma ()">Cikarma</button>
+        <button onclick="carpma ()">Carpma</button>
+        <button onclick="bolme ()">Bolme</button>
+        <button onclick="mod ()">Mod</button>
+        <script>
+            var x = 10;
+            var y = 6;
+            function toplama() {
+                alert(x + y);
+            }
+            function cikarma() {
+                alert(x - y);
+            }
+
+            function carpma() {
+                alert(x * y);
+            }
+
+            function bolme() {
+                alert(x / y);
+            }
+            function mod() {
+                alert(x % y);
+            }
+        </script>
+    </body>
+</html>
